@@ -1,0 +1,16 @@
+# Python junk
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# PyCharm settings
+.idea/
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+
+# Data (ignore everything in data folder)
+data/*
+

@@ -1,0 +1,17 @@
+{
+    "bin_size": 4.0,
+    "duration_dd": 0.11447477340698242,
+    "duration_dr": 1.738997220993042,
+    "duration_rr": 7.251410007476807,
+    "duration_total": 9.104882001876831,
+    "file_data": "LRG_N_clustering.dat.fits",
+    "file_rand": "LRG_N_0_clustering.ran.fits",
+    "run_mode": "ISOTROPIC",
+    "size_data": 29617,
+    "size_rand": 243819,
+    "subsample_frac_data": 1,
+    "subsample_frac_rand": 1,
+    "weight_components": "WEIGHT, WEIGHT_FKP",
+    "z_max": 0.8,
+    "z_min": 0.6
+}
