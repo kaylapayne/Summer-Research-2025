@@ -1,0 +1,17 @@
+{
+    "bin_size": 4.0,
+    "duration_dd": 2.34586501121521,
+    "duration_dr": 17.979698181152344,
+    "duration_rr": 38.798476696014404,
+    "duration_total": 59.12403988838196,
+    "file_data": "ELG_LOPnotqso_NGC_clustering.dat.fits",
+    "file_rand": "ELG_LOPnotqso_NGC_0_clustering.ran.fits",
+    "run_mode": "ISOTROPIC",
+    "size_data": 339039,
+    "size_rand": 1802977,
+    "subsample_frac_data": 1,
+    "subsample_frac_rand": 1,
+    "weight_components": "WEIGHT, WEIGHT_FKP",
+    "z_max": 1.6,
+    "z_min": 1.4
+}
