@@ -32,8 +32,8 @@ def compute_Hubble(Gamma, omega_ddm0):
         rho_lambda = omega_lambda0
         rho_total = rho_m + rho_x + rho_r + rho_lambda
         H = H0_s * np.sqrt(max(rho_total, 1e-30))
-        drho_x_dz = (3 * rho_x - (Gamma / H) * rho_x) / (1 + z)
-        drho_r_dz = (4 * rho_r + (Gamma / H) * rho_x) / (1 + z)
+        drho_x_dz = (3 * rho_x + (Gamma / H) * rho_x) / (1 + z)
+        drho_r_dz = (4 * rho_r - (Gamma / H) * rho_x) / (1 + z)
         return [drho_x_dz, drho_r_dz]
 
     sol = solve_ivp(

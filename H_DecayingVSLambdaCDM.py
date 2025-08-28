@@ -39,8 +39,8 @@ def d_rho_dz(z, y):
     if H <= 0:
         return [0, 0]  # avoid invalid sqrt at late times
 
-    drho_x_dz = (3 * rho_x - (Gamma / H) * rho_x) / (1 + z)
-    drho_r_dz = (4 * rho_r + (Gamma / H) * rho_x) / (1 + z)
+    drho_x_dz = (3 * rho_x + (Gamma / H) * rho_x) / (1 + z)
+    drho_r_dz = (4 * rho_r - (Gamma / H) * rho_x) / (1 + z)
     return [drho_x_dz, drho_r_dz]
 
 

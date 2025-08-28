@@ -2,6 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import LogLocator, MultipleLocator
 
+'''
+This is the original fish plot using the LCDM model, no decaying dark matter, just a comparison of
+energy densities of matter, radiation, and dark energy over redshift history.
+'''
+
 one_plus_z = np.logspace(0, 8, 500)
 
 omega_m = 0.315
