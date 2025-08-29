@@ -41,3 +41,5 @@ H_DecayingVSLambdaCDM.py
 bins.txt
 mu_bins.txt
 s_bins.txt
+xi_matrix.csv
+xi_rp_pi_matrix.csv
