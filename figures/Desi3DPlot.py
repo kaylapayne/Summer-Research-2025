@@ -7,7 +7,7 @@ import pyvista as pv
 
 print("Opening FITS file...")
 # Load redshift catalog
-zcat = fits.open("data/zall-pix-guadalupe.fits")[1].data
+zcat = fits.open("../data/zall-pix-guadalupe.fits")[1].data
 
 print("Extracting z, ra, dec data...")
 mask = (zcat["ZWARN"] == 0) & (zcat["Z"] > 0.01)  # good redshifts

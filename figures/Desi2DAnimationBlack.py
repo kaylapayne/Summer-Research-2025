@@ -12,7 +12,7 @@ from matplotlib.patches import Circle
 
 #data = fits.open("data/zall-pix-guadalupe.fits")[1].data
 print("Opening the FITS data...")
-data = fits.open("data/zall-pix-guadalupe.fits")[1].data
+data = fits.open("../data/zall-pix-guadalupe.fits")[1].data
 mask = (data["ZWARN"] == 0) & (data["Z"] > 0)
 count = len(data)
 ra = data["TARGET_RA"][mask]
