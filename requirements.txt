@@ -1,0 +1,12 @@
+astropy==6.1.7
+Corrfunc==2.5.3
+future==1.0.0
+matplotlib==3.10.3
+munkres==1.1.4
+vtk==9.3.1
+wurlitzer==3.1.1
+zstandard==0.23.0
+pandas
+plotly
+pyvista
+scipy==1.15.2
